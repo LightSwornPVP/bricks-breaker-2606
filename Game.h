@@ -18,4 +18,6 @@ public:
 	void Reset();
 	void ResetBall();
 	void CheckCollision();
+	bool gameWon;
+	bool gameLost;
 };
